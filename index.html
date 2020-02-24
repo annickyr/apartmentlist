@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[app name???]</title>
+    <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+</head>
+<body>
+    <h1>My Web App</h1>
+    <form method="POST" action="/kintoneresponse">
+		<button name="name" value="value" type="submit">See your saved apartments</button>
+    </form>
+
+
+<div class="container">
+  <h2>Add an apartment!</h2>
+  <form action="/kintoneadd" method="POST">
+    <div class="form-group">
+      <label for="aname">Apartment Name</label><br>
+      <input type="text" id="aname" name="aname"><br><br>
+    </div>
+    <div class="form-group">
+      <label for="address">Address</label><br>
+      <input type="text" id="address" name="address"><br><br>
+    </div>
+    <div class="form-group">
+      <label for="rent">Rent</label><br>
+      <input type="text" id="rent" name="rent"><br><br>
+    </div>
+    <div class="form-group">
+      <label for="bedrooms">Bedroom</label><br>
+      <input type="text" id="bedrooms" name="bedrooms"><br><br>
+    </div>
+    <div class="form-group">
+      <label for="bathrooms">Bathroom</label><br>
+      <input type="text" id="bathrooms" name="bathrooms"><br><br>
+    </div>
+    <div class="form-group">
+      <label for="utilities">Utilites</label>
+      <select multiple class="form-control" id="utilities">
+        <option>Water & Sewer</option>
+        <option>Electrictiy</option>
+        <option>Natural Gas</option>
+        <option>Trash</option>
+        <option>Wifi</option>
+        <option>Cable</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="unit">Unit Amenities</label>
+      <select multiple class="form-control" id="unit">
+        <option>Air Conditioning</option>
+        <option>Patio Balcony</option>
+        <option>Fireplace</option>
+        <option>Wood flooring</option>
+        <option>Storage in unit</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="laundry">Laundry Amenities</label>
+      <select multiple class="form-control" id="laundry">
+        <option>Washers/dryers in the units</option>
+        <option>Shared laundry room</option>
+        <option>Laundry service</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="kitchen">Kitchen Amenities</label>
+      <select multiple class="form-control" id="kitchen">
+        <option>Dishwasher in unit</option>
+        <option>Kitchen appliances</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="tech">Tech Amenities</label>
+      <select multiple class="form-control" id="tech">
+        <option>Changing outlets with USB ports</option>
+        <option>Wifi</option>
+        <option>High-speed internet</option>
+        <option>Cable/Satellite TV</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="recreation">Recreation</label>
+      <select multiple class="form-control" id="recreation">
+        <option>Fitness center</option>
+        <option>Pool</option>
+        <option>Spa</option>
+        <option>Community center</option>
+        <option>Outdoor areas</option>
+        <option>Jogging/walking/bike path</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="location">Location</label>
+      <select multiple class="form-control" id="location">
+        <option>Close to highway</option>
+        <option>Close to bus stands</option>
+        <option>Close to train/metro stations</option>
+        <option>Close to convenience stores</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="safety">Safety</label>
+      <select multiple class="form-control" id="safety">
+        <option>Gated access</option>
+        <option>Security cameras</option>
+        <option>Security guard</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="pets">Pets</label>
+      <select class="form-control" id="pets">
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="pet">Pet Amenities</label>
+      <select multiple class="form-control" id="pet">
+        <option>Dog park</option>
+        <option>Dog washing station</option>
+        <option>Large dogs allowed</option>
+        <option>Multiple pets allowed</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="comments">Additional Comments</label>
+      <textarea class="form-control" id="comments" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+
+
+
+</body>
+</html>
